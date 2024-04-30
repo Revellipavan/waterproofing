@@ -1,0 +1,136 @@
+body{
+    height: 100vh;
+   
+  background-image: url(https://res.cloudinary.com/di0b7m1se/image/upload/v1714404657/waterproofing-contractors__y0ohpk.jpg);
+
+}
+.navbg{
+   background: transparent;
+}
+    .logo{
+    color: rgb(241, 43, 43);
+    font-size: 50px;
+    font-weight: bolder;
+   
+}
+.owner{
+    padding-left: 380px;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+.contents{
+    font-weight: bold;
+}
+.contents:hover{
+    background-color: chocolate;
+    border-radius: 50px;
+}
+.home{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    color: black;
+    text-align: right;
+    padding-left: 200px;
+justify-content: center;
+}
+    
+.pro-pic{
+    height:40vh;
+    width: 300px;
+    border-radius: 150px;
+    border: 10px solid darkgrey;
+   
+}
+.body-section{
+    height: 80vh;  
+}
+.works-h1{
+  text-align: center;
+   font-weight: bold;
+}
+.works{
+    height: 70vh;
+    width: 20px;
+    font-size:large;
+    font-weight: bold;
+    justify-content: left;
+    text-align: left;
+    border: 2px solid darkgrey;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.works:hover{
+    border: 5px solid transparent;
+    
+}
+
+.dropdown-1{
+    justify-content: space-between;
+    padding-top: 100px;
+   
+}
+.works-h2{
+    font-weight:bold ;
+}
+.bathroom{
+    height: 180px;
+    border: 5px solid darkgrey;
+}
+.contact-h1{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-font{
+    font-size: large;
+    font-weight: bold;
+  }
+  .but{
+    padding-left: 480px;
+    padding-bottom: 100px;
+  }
+  .prob{
+    border-radius: 20px;
+  }
+  .contact-social{
+    padding-left: 480px;
+    padding-right: 480px;
+      
+  }
+  .box{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 20px;
+       
+  }
+  
+  .contact-right{
+    padding-top: 10px; 
+  }
+  .contact-right:hover{
+    border: 2px solid transparent;
+    border-radius: 50px;
+  }
+  .icon{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: 500;
+    
+  }
+  .icon-image{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 50px;
+   
+  }
