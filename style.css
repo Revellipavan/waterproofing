@@ -96,8 +96,20 @@ form{
     padding-left: 480px;
     padding-bottom: 100px;
   }
-  .prob{
+  .contact-input{
+    display: block;
+    margin-top: 10px;
     border-radius: 20px;
+    padding: .375rem .75rem;
+  }
+  .contact-input:focus{
+    border: 3px solid skyblue;
+  }
+  .contact-input::before{
+    box-sizing: content-box;
+  }
+  .contact-input::after{
+    box-sizing: content-box;
   }
   .contact-social{
     padding-left: 480px;
