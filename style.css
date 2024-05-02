@@ -92,23 +92,36 @@ justify-content: center;
   font-size:large ;
   font-weight: 500;
 }
-.full,.phn,.add,.sta,.Dist,.email,.prob,.sub-1:hover{
+.full,.phn,.add,.Dist,.email{
   border: 2px solid darkgrey;
   border-radius: 20px;
 }
-
+.sta{
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+}
+.prob{
+  border: 2px solid darkgrey;
+  border-radius: 20px;
+}
 .sub{
 background-color: rgba(224, 223, 116, 0.664);
+border-color: transparent;
+border-radius: 10px;
+}
+.sub:hover{
+  border: 2px solid darkgrey;
 }
 
 .sub-1{
 padding-left: 460px;
 padding-bottom: 50px;
+
 }
   .contact-social{
     padding-left: 490px;
-    padding-right: 510px;
-      
+    padding-right: 650px;
+    
   }
   .box{
     display: flex;
