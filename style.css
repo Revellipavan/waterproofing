@@ -83,37 +83,31 @@ justify-content: center;
     text-align: center;
     font-weight: bold;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .contact-font{
-    font-size: large;
-    font-weight: bold;
-  }
-  .but{
-    padding-left: 480px;
-    padding-bottom: 100px;
-  }
-  .contact-input{
-    display: block;
-    margin-top: 10px;
-    border-radius: 20px;
-    padding: .375rem .75rem;
-  }
-  .contact-input:focus{
-    border: 3px solid skyblue;
-  }
-  .contact-input::before{
-    box-sizing: content-box;
-  }
-  .contact-input::after{
-    box-sizing: content-box;
-  }
+.contact-det{
+  display: block;
+ padding-left: 20px;
+  align-items: self-start;
+}
+.full-name,.state,.District,.Problem,.sub{
+  font-size:large ;
+  font-weight: 500;
+}
+.full,.phn,.add,.sta,.Dist,.email,.prob,.sub-1:hover{
+  border: 2px solid darkgrey;
+  border-radius: 20px;
+}
+
+.sub{
+background-color: rgba(224, 223, 116, 0.664);
+}
+
+.sub-1{
+padding-left: 460px;
+padding-bottom: 50px;
+}
   .contact-social{
-    padding-left: 480px;
-    padding-right: 480px;
+    padding-left: 490px;
+    padding-right: 510px;
       
   }
   .box{

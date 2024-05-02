@@ -88,24 +88,21 @@
     </div>
     <div class="contact" id="Contacts">
       <h1  class="contact-h1">CONTACTS</h1>
-      <div class="container bg-transparent">
-      <form action="https://api.web3forms.com/submit" method="POST" class="row g-6">
-        <div class="col-4">
-          <input type="hidden" name="access_key" value="ae6a1bb3-de43-403d-af13-2366b69f1624">
-          <label for="full name" class=" contact-font">Full Name</label>
-          <input type="text" class="form-control"   required>
-        </div>
-        
-        <div class="col-md-4">
-          <label for="validationDefault02" class="form-label contact-font">Contact No.</label>
-          <input type="text" class="form-control" id="validationDefault02" required>
-        </div>
-              <form>
-                <div class="form-group col-md-4">
-                  <label for="inputState" class="contact-font">State</label>
-                  <select class="form-control" id="inputState">
-                                      <option value="SelectState">Select State</option>
-                                      <option value="Andra Pradesh">Andra Pradesh</option>
+     <form action="https://api.web3forms.com/submit" method="POST">
+      <div class="d-flex flex-column contact-det">
+        <input type="hidden" name="access_key" value="ae6a1bb3-de43-403d-af13-2366b69f1624">
+        <label for="full-name" class="full-name">Full Name</label>
+        <input type="text" name="Full-Name" class="full" required>
+        <label for="full-name" class="full-name">Phone no.</label>
+        <input type="text" name="Phone-no." class="phn" required>
+        <label for="full-name" class="full-name">Email id.</label>
+        <input type="text" name="Email-id." class="email" required>
+        <label for="full-name" class="full-name">Address</label>
+        <textarea type="text" rows="3" cols="30" name="Address" class="add" required></textarea>
+        <label for="input-state" class="state">State</label>
+        <select id="input-state" name="State" class="sta">
+          <option value="select state" >select state</option>
+          <option value="Andra Pradesh">Andra Pradesh</option>
                                       <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                                       <option value="Assam">Assam</option>
                                       <option value="Bihar">Bihar</option>
@@ -142,28 +139,15 @@
                                       <option value="Delhi">Delhi</option>
                                       <option value="Lakshadeep">Lakshadeep</option>
                                       <option value="Pondicherry">Pondicherry</option>
-                                    </select>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationDefault03" class="form-label contact-font">City</label>
-                  <input type="text" class="form-control" id="validationDefault03" required>
-                </div>
-              </form>
-        <div class="col-md-4">
-          <label for="validationDefault04" class="form-label contact-font">Zip</label>
-          <input type="text" class="form-control" id="validationDefault04" required>
-        </div>
-       <form>
-        <div class="col">
-          <label class="contact-font"> Problem Summary</label><br>
-          <textarea name="problem Summary" placeholder="type your problem.." class="contact-input" rows="4" cols="30"></textarea>
-        </div>
-       </form>
-        
-        <div class="but">
-            <button  class="btn btn-primary" type="submit">Submit</button>
-
-        </div>
+        </select>
+        <label for="District" class="District">District</label>
+        <input type="text" name="District" class="Dist" required>
+        <label for="Problem" class="Problem">Problem</label>
+        <textarea class="prob" name="Problem" id="" cols="30" rows="5" placeholder="write your problem..."></textarea>
+        <div class="sub-1"><button type="submit" class="sub">Submit</button>
+      </div>
+      </div>
+     </form>
         <div class="contact-social ">
           <div class="box">
             <div class=" contact-right">
